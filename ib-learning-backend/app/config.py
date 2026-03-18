@@ -1,5 +1,3 @@
----
-
 ## app/config.py (Configuration)
 
 ```python
@@ -94,5 +92,3 @@ def get_db():
     finally:
         db.close()
 ```
-
----
