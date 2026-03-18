@@ -22,7 +22,7 @@ python-multipart==0.0.7
 
 # Utilities
 python-dotenv==1.0.0
-httpx==0.25.2
+httpx==0.24.1
 aiofiles==23.2.1
 
 # File Uploads
