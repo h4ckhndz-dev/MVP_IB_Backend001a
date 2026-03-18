@@ -1,6 +1,5 @@
 ## app/config.py (Configuration)
 
-```python
 """
 Configuration and environment variables
 """
@@ -91,4 +90,4 @@ def get_db():
         yield db
     finally:
         db.close()
-```
+
