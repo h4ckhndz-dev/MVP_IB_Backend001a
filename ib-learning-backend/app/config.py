@@ -1,8 +1,6 @@
----
 
 ## app/config.py (Configuration)
 
-```python
 """
 Configuration and environment variables
 """
