@@ -1,10 +1,10 @@
 ## Minimal app/main.py (FastAPI Entry Point)
 
-```python
-"""
-IB Learning Community - FastAPI Backend
-Main application entry point
-"""
+
+##"""
+#IB Learning Community - FastAPI Backend
+#Main application entry point
+##"""
 
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
