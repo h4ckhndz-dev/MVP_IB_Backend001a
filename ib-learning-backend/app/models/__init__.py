@@ -151,9 +151,9 @@ class TransdisciplinaryTheme(Base):
     units = relationship("UnitOfInquiry", back_populates="theme")
 
 # ============================================================================
+# Aliases for backwards compatibility
 
-class UnitOfInquiry(Base):
-    """Main learning unit"""
+"""Main learning unit"""
     __tablename__ = "unit_of_inquiry"
     
     unit_id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
@@ -577,3 +577,7 @@ __all__ = [
     'AgencyEvent',
     'SystemLog',
 ]
+# Aliases for backwards compatibility
+Unit = UnitOfInquiry
+LinOfInquiry = LineOfInquiry
+StudentVote = StudentVote
